@@ -1,0 +1,14 @@
+#include<studio.h>
+int main()
+{
+float a,b,c,average;
+
+printf("Enter the three mom's: ");
+scanf("%f%f%f", &a,&b,&c);
+
+average = (a + b +c) / 3;
+sum = a + b + c;
+printf("The Average of the three no's you entered is:%2.f\n",average);
+printf("The sum of the three no's you entered is:%2.f\n",average);
+return 0;
+}
